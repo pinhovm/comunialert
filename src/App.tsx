@@ -1,16 +1,14 @@
-
-import './App.css'
-import MyButton from './MyButton'
-import MyDiv from './MyDiv'
+import "./App.css";
+import MyButton from "./MyButton";
+import MyDiv from "./MyDiv";
 
 function App() {
-  
   return (
     <>
-      <MyButton/>
+      <MyButton />
       <MyDiv/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
