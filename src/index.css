@@ -1,8 +1,6 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 /* 
 :root {
@@ -60,4 +58,3 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
-
