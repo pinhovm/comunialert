@@ -36,23 +36,119 @@ const users: IUser[] = [
     age: 35,
     address: "Rua E, 1213",
   },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
+  {
+    firstName: "Carlos",
+    lastName: "Ferreira",
+    age: 35,
+    address: "Rua E, 1213",
+  },
 ];
-
+const flexBetween = "flex items-center justify-between";
 const usersInformation = () => {
   return (
-    <div>
-      <h2 className="font-bold">
-        {users.map((user) => (
-          <>
+    <div className="grid gap-4 grid-cols-4 grid-flow-row  ">
+      {users.map((user) => (
+        <>
+          <div className={`${flexBetween} p-3 m-5 bg-white w-3/6 rounded-md`}>
             <span>
               Nome: {user.firstName} {user.lastName} <br />
               Idade: {user.age} <br />
-              Endereco: {user.address} <br /> <br />
+              Endereco: {user.address} <br />
               <br />
             </span>
-          </>
-        ))}
-      </h2>
+          </div>
+        </>
+      ))}
     </div>
   );
 };
