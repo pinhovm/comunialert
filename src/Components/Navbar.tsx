@@ -1,5 +1,5 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+// import { Fragment } from "react";
+import { Disclosure, Menu } from "@headlessui/react"; //Transition
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
